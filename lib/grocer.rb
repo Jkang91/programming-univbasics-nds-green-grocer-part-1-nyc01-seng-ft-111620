@@ -2,11 +2,9 @@ require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
-    item.each do |key, value|   #item.key
-      if value == name
-        return key => value
-      end
-    end  
+    if item.value == name
+      return key => value
+    end
   end
   return nil
 end

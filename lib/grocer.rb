@@ -1,14 +1,13 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
-   # collection.each do |item|
-  #   if item.values.join == name
-  #     return item
-  #   end
-  # end
-  # return nil
-  # binding.pry
-  
+  collection.each do |item|
+    if item.values.join == name
+      return item
+    end
+  end
+  return nil
+  binding.pry
 end
 
 def consolidate_cart(cart)

@@ -37,11 +37,4 @@ end
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 
- # collection.each do |item|
-  #   if item.values.join == name
-  #     return item
-  #   end
-  # end
-  # return nil
-  # binding.pry
   

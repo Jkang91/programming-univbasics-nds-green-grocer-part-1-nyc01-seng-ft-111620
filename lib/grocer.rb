@@ -3,7 +3,7 @@ require 'pry'
 def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     if item.value == name
-      return itemkey => value
+      return item.key => itevalue
     end
   end
   return nil

@@ -24,7 +24,7 @@ def consolidate_cart(cart)
         :count => 1 
       }
       new_cart << new_cart_item
-      # binding.pry
+      binding.pry
     end
     counter += 1
   end
